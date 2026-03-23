@@ -1,9 +1,16 @@
 {
   "name": "@philiprehberger/task-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Task orchestration with dependency resolution and topological execution",
-  "keywords": ["task", "runner", "dependency", "orchestrate", "pipeline", "build"],
-  "author": "philiprehberger",
+  "keywords": [
+    "task",
+    "runner",
+    "dependency",
+    "orchestrate",
+    "pipeline",
+    "build"
+  ],
+  "author": "Philip Rehberger",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -25,19 +32,26 @@
       }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "engines": {
-    "node": ">=18"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "test": "node --test"
+    "test": "node --test",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
+  },
+  "homepage": "https://github.com/philiprehberger/ts-task-runner#readme",
+  "bugs": {
+    "url": "https://github.com/philiprehberger/ts-task-runner/issues"
   }
 }
