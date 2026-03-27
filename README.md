@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-task-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-task-runner/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/task-runner)](https://www.npmjs.com/package/@philiprehberger/task-runner)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-task-runner)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Task orchestration with dependency resolution and topological execution.
 
