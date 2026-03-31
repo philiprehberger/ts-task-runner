@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/task-runner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Task orchestration with dependency resolution and topological execution",
   "keywords": [
     "task",
